@@ -53,7 +53,8 @@ project "pcre2"
             "HAVE_CONFIG_H",
             "_CRT_SECURE_NO_DEPRECATE",
             "_CRT_SECURE_NO_WARNINGS",
-            "PCRE2_CODE_UNIT_WIDTH=8"
+            "PCRE2_CODE_UNIT_WIDTH=8",
+            "PCRE2_STATIC"
         }
 
     filter ""
